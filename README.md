@@ -14,7 +14,7 @@ vMyParsedScript:= ParseSQL(MyScriptSQL, 'go'); //use Go if MSSQL
 
 for I := 0 to Pred(vMyParsedScript.Count) do
 begin
- ADOCommand1.CommandText:= vMyParsedScript[Z];
+ ADOCommand1.CommandText:= vMyParsedScript[I];
  ...
 end;
 ```
