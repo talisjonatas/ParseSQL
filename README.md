@@ -1,4 +1,4 @@
-# ParseSQL
+# ParseSQL Delphi
 Parse your SQL Script (MSSQL, firebird, etc)
 
 # Author
